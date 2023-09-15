@@ -31,9 +31,15 @@ public class Arrays
         for (int iterate = 0; iterate < strArray.length; iterate++) {
             System.out.print(strArray[iterate]);
         }
+        for (int iterate = 0; iterate <strArray.length; iterate++) {
+            System.out.println(" ");
+        }
         for (int iterate = 0; iterate < strArray.length; iterate++) {
             System.out.print(strArray[iterate]);
-            System.out.print("-");
+            if (iterate < strArray.length -1) {
+                System.out.print("-");
+            }
         }
-        }
+        
     }
+}
